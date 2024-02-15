@@ -1,0 +1,18 @@
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+.w3-button{
+    border-radius: 20px;
+}
+.w3-white{
+    border-radius: 8px;
+}
+.imes{
+    border-radius: 15px;
+}
+.dc{
+    text-decoration: none;
+}
+.w3-bar .align{
+  
+    justify-content: center;
+}
