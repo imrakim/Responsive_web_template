@@ -1,75 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive web Template-03</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
+
 <body>
-
-<!-- Header -->
-<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
-  <img class="w3-image" src="/rv1/asset/pexels-marek-piwnicki-11032510.jpg" alt="Me" width="1500" height="600">
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
-    <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
-  </div>
-  
-  <!-- Navbar (placed at the bottom of the header image) -->
-  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-    <a href="#" class="w3-bar-item w3-button">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-  </div>
-</header>
-
-<!-- Navbar on small screens -->
-<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
-<div class="w3-bar w3-light-grey">
-  <a href="#" class="w3-bar-item w3-button">Home</a>
-  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-</div>
-</div>
-<!-- Page content -->
-<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
-
-  <!-- Images (Portfolio) -->
-  <img src="/rv1/asset/pexels-stein-egil-liland-9941413.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
-  <img src="/rv1/asset/pexels-marek-piwnicki-11032510.jpg" alt="same" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/rv1/asset/pexels-stein-egil-liland-9941413.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/rv1/asset/pexels-stein-egil-liland-9941413.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
-  <img src="/rv1/asset/pexels-stein-egil-liland-9941413.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
-
-  <!-- Contact -->
-  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
-    <h3 class="w3-center">Contact</h3>
-    <hr>
-    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
-
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" required name="Name">
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" required name="Email">
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" required name="Message">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-    </form><br>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-
-  </div>
-
-<!-- End page content -->
-</div>
-
+  <nav id="navbar">
+    <div id="logo">
+      <img src="/rv3/assets/My_logo-removebg-preview.png" alt="Rakim_logo">
+    </div>
+    <ul>
+      <li class="item"><a href="#">Home</a></li>
+      <li class="item"><a href="#">About</a></li>
+      <li class="item"><a href="#">Service</a></li>
+      <li class="item"><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <h1 class="h-primary">
+      Well-come To Demo Web site
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, aut est aliquam temporibus qui repudiandae et
+      saepe veritatis magnam ipsam, voluptas nemo. Veritatis repellat maxime repellendus culpa voluptatum doloremque
+      omnis?
+    </p>
+    <button class="btn">Lorem</button>
+  </section>
+  <section class="about-container">
+    <h2 class="h-primary-center">About us</h2>
+    <div class="about">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi consequatur aspernatur vero inventore sit blanditiis asperiores corrupti dolor itaque incidunt debitis tempora, amet non praesentium totam maxime quam delectus.</p>
+    </div>
+  </section>
 </body>
+
 </html>
